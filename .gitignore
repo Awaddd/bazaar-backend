@@ -1,0 +1,66 @@
+# Build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio files
+.vs/
+
+# Rider files
+.idea/
+
+# ASP.NET Core files
+wwwroot/lib/
+
+# Configuration secrets
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs
+*.log
+
+# Publish output
+publish/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+.packages/
+
+# Dotnet Tools
+.tools/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Backup files
+*~
+*.bak
+
+# Node modules (if you use any frontend with npm)
+node_modules/
+
+# VS Code
+.vscode/
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# EF Core Migrations (optional, if you want to ignore migrations)
+Migrations/
+
+# Secrets file
+secrets.json
+
+# IIS Express config
+iisexpress/
