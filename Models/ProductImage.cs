@@ -1,6 +1,6 @@
 namespace Commerce.Api.Models;
 
-class ProductImages
+public class ProductImage
 {
     public int Id { get; set; }
     public string Url { get; set; } = default!;
