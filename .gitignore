@@ -56,11 +56,10 @@ coverage/
 *.coveragexml
 TestResults/
 
-# EF Core Migrations (optional, if you want to ignore migrations)
-Migrations/
-
 # Secrets file
 secrets.json
 
 # IIS Express config
 iisexpress/
+commerce.db-wal
+commerce.db-shm
