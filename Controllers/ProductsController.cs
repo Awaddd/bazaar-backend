@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Commerce.Api.Data;
 using Commerce.Api.Models;
 using Commerce.Api.Contracts;
+using Microsoft.EntityFrameworkCore;
 
 namespace Commerce.Api.Controllers;
 
@@ -17,7 +18,18 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult GetAll() => Ok(_db.Products.ToList());
+    public IActionResult GetAll()
+    {
+        var products = _db.Products
+            .Include(p => p.Brand)
+            .Include(p => p.Category)
+            .Include(p => p.Gallery)
+            .Include(p => p.Sizes)
+            .Include(p => p.Features)
+            .Select(p => new ProductReadDto(p))
+            .ToList();
+        return Ok(products);
+    }
 
     [HttpPost]
     public async Task<IActionResult> Create(ProductCreateDto productDto)
@@ -50,7 +62,8 @@ public class ProductsController : ControllerBase
         _db.Products.Add(product);
         await _db.SaveChangesAsync();
 
-        return CreatedAtAction(nameof(GetById), new { id = product.Id }, product);
+        var result = new { id = product.Id };
+        return CreatedAtAction(nameof(GetById), result, result);
     }
 
     [HttpGet("{id}")]

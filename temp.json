@@ -1,0 +1,46 @@
+{
+    "name": "Jordan 1 Cool Gray",
+    "price": 149.0,
+    "category": 1,
+    "brand": 1,
+    "description": "The Jordan 1 Cool Gray is a classic sneaker known for its clean design and versatile style, perfect for both casual wear and collectors.",
+    "imageUrl": "/assets/jordan-1-gray.webp",
+    "gallery": [
+        "/assets/jordan-1-gray.webp",
+        "/assets/jordan-1-gray-2.webp",
+        "/assets/jordan-1-gray-3.jpg"
+    ],
+    "features": [
+        "High-quality leather upper",
+        "Durable rubber outsole",
+        "Lightweight cushioning for comfort",
+        "Iconic Off-White design elements"
+    ],
+    "careInstructions": "Clean with a damp cloth. Avoid exposure to direct sunlight for extended periods.",
+    "sizes": [
+        {
+            "size": 6,
+            "available": true
+        },
+        {
+            "size": 7,
+            "available": true
+        },
+        {
+            "size": 8,
+            "available": true
+        },
+        {
+            "size": 9,
+            "available": true
+        },
+        {
+            "size": 10,
+            "available": false
+        },
+        {
+            "size": 11,
+            "available": false
+        }
+    ]
+}
