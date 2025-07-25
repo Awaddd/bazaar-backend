@@ -28,6 +28,10 @@ public class ProductsController : ControllerBase
         var category = await _db.Categories.FindAsync(productDto.Category);
         if (category == null) return BadRequest($"Category with ID {productDto.Category} does not exist.");
 
+        var features = productDto.Features.Select(f => new ProductFeature { Value = f }).ToList();
+        var gallery = productDto.Gallery.Select(url => new ProductImage { Url = url }).ToList();
+        var sizes = productDto.Sizes.Select(s => new ProductSize { Size = s.Size, Available = s.Available }).ToList();
+
         var product = new Product
         {
             Name = productDto.Name,
@@ -37,10 +41,15 @@ public class ProductsController : ControllerBase
             CareInstructions = productDto.CareInstructions,
             BrandId = productDto.Brand,
             CategoryId = productDto.Category,
+
+            Features = features,
+            Gallery = gallery,
+            Sizes = sizes
         };
 
         _db.Products.Add(product);
-        _db.SaveChanges();
+        await _db.SaveChangesAsync();
+
         return CreatedAtAction(nameof(GetById), new { id = product.Id }, product);
     }
 

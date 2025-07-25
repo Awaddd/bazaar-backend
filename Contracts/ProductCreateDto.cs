@@ -2,7 +2,6 @@ namespace Commerce.Api.Contracts;
 
 public class ProductCreateDto
 {
-    public int Id { get; set; }
     public string Name { get; set; } = default!;
     public double Price { get; set; } // todo make price an int in the db model
     public string Description { get; set; } = default!;
