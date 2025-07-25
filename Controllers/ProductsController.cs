@@ -20,31 +20,23 @@ public class ProductsController : ControllerBase
     public IActionResult GetAll() => Ok(_db.Products.ToList());
 
     [HttpPost]
-    public IActionResult Create(ProductCreateDto productDto)
+    public async Task<IActionResult> Create(ProductCreateDto productDto)
     {
-        var brand = _db.Brands.Find(productDto.Brand);
+        var brand = await _db.Brands.FindAsync(productDto.Brand);
+        if (brand == null) return BadRequest($"Brand with ID {productDto.Brand} does not exist.");
 
-        if (brand == null)
-        {
-            return BadRequest($"Brand with ID {productDto.Brand} does not exist.");
-        }
+        var category = await _db.Categories.FindAsync(productDto.Category);
+        if (category == null) return BadRequest($"Category with ID {productDto.Category} does not exist.");
 
-        var category = _db.Categories.Find(productDto.Category);
-
-        if (category == null)
-        {
-            return BadRequest($"Category with ID {productDto.Category} does not exist.");
-        }
-
-        var Product = new Product
+        var product = new Product
         {
             Name = productDto.Name,
             Price = (int)Math.Round(productDto.Price), // temp round
             Description = productDto.Description,
             ImageUrl = productDto.ImageUrl,
             CareInstructions = productDto.CareInstructions,
-
-            Brand = brand,
+            BrandId = productDto.Brand,
+            CategoryId = productDto.Category,
         };
 
         _db.Products.Add(product);
