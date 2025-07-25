@@ -22,11 +22,11 @@ public class ProductsController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create(ProductCreateDto productDto)
     {
-        var brand = await _db.Brands.FindAsync(productDto.Brand);
-        if (brand == null) return BadRequest($"Brand with ID {productDto.Brand} does not exist.");
+        var brand = await _db.Brands.FindAsync(productDto.BrandId);
+        if (brand == null) return BadRequest($"Brand with ID {productDto.BrandId} does not exist.");
 
-        var category = await _db.Categories.FindAsync(productDto.Category);
-        if (category == null) return BadRequest($"Category with ID {productDto.Category} does not exist.");
+        var category = await _db.Categories.FindAsync(productDto.CategoryId);
+        if (category == null) return BadRequest($"Category with ID {productDto.CategoryId} does not exist.");
 
         var features = productDto.Features.Select(f => new ProductFeature { Value = f }).ToList();
         var gallery = productDto.Gallery.Select(url => new ProductImage { Url = url }).ToList();
@@ -39,8 +39,8 @@ public class ProductsController : ControllerBase
             Description = productDto.Description,
             ImageUrl = productDto.ImageUrl,
             CareInstructions = productDto.CareInstructions,
-            BrandId = productDto.Brand,
-            CategoryId = productDto.Category,
+            BrandId = productDto.BrandId,
+            CategoryId = productDto.CategoryId,
 
             Features = features,
             Gallery = gallery,

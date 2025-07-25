@@ -8,8 +8,8 @@ public class ProductCreateDto
     public string ImageUrl { get; set; } = default!;
     public string CareInstructions { get; set; } = default!;
 
-    public int Brand { get; set; }
-    public int Category { get; set; }
+    public int BrandId { get; set; }
+    public int CategoryId { get; set; }
 
     public List<string> Gallery { get; set; } = [];
     public List<ProductSizeDto> Sizes { get; set; } = [];
