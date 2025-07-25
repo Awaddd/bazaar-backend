@@ -1,8 +1,8 @@
 {
     "name": "Jordan 1 Cool Gray",
     "price": 149.0,
-    "category": 1,
-    "brand": 1,
+    "categoryId": 1,
+    "brandId": 1,
     "description": "The Jordan 1 Cool Gray is a classic sneaker known for its clean design and versatile style, perfect for both casual wear and collectors.",
     "imageUrl": "/assets/jordan-1-gray.webp",
     "gallery": [
