@@ -23,6 +23,7 @@ public class ProductsController : ControllerBase
         var query = _db.Products
             .Include(p => p.Brand)
             .Include(p => p.Category)
+            .OrderByDescending(p => p.Id)
             .AsQueryable();
 
         if (limit.HasValue) {
