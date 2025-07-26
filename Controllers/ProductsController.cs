@@ -58,6 +58,7 @@ public class ProductsController : ControllerBase
             .Include(p => p.Gallery)
             .Include(p => p.Sizes)
             .Include(p => p.Features)
+            .Where(p => p.Id == id)
             .Select(p => new ProductReadDto(p))
             .FirstOrDefault();
         return product == null ? NotFound() : Ok(product);
