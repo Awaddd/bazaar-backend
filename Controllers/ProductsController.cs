@@ -18,14 +18,35 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult GetAll()
+    public IActionResult GetAll([FromQuery] int? limit, [FromQuery] int page = 1)
     {
-        var products = _db.Products
+        var query = _db.Products
             .Include(p => p.Brand)
             .Include(p => p.Category)
-            .Select(p => new ProductReadDto(p))
-            .ToList();
+            .AsQueryable();
+
+        if (limit.HasValue) {
+            var skip = (page - 1) * limit.Value;
+            query = query.Skip(skip).Take(limit.Value);
+        }
+
+        var products = query.Select(p => new ProductReadDto(p)).ToList();
         return Ok(products);
+    }
+
+    [HttpGet("{id}")]
+    public IActionResult GetById(int id)
+    {
+        var product = _db.Products
+            .Include(p => p.Brand)
+            .Include(p => p.Category)
+            .Include(p => p.Gallery)
+            .Include(p => p.Sizes)
+            .Include(p => p.Features)
+            .Where(p => p.Id == id)
+            .Select(p => new ProductReadDto(p))
+            .FirstOrDefault();
+        return product == null ? NotFound() : Ok(product);
     }
 
     [HttpPost]
@@ -44,20 +65,5 @@ public class ProductsController : ControllerBase
 
         var result = new { id = product.Id };
         return CreatedAtAction(nameof(GetById), result, result);
-    }
-
-    [HttpGet("{id}")]
-    public IActionResult GetById(int id)
-    {
-        var product = _db.Products
-            .Include(p => p.Brand)
-            .Include(p => p.Category)
-            .Include(p => p.Gallery)
-            .Include(p => p.Sizes)
-            .Include(p => p.Features)
-            .Where(p => p.Id == id)
-            .Select(p => new ProductReadDto(p))
-            .FirstOrDefault();
-        return product == null ? NotFound() : Ok(product);
     }
 }
