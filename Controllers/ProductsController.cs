@@ -69,7 +69,14 @@ public class ProductsController : ControllerBase
     [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
-        var product = _db.Products.Find(id);
+        var product = _db.Products
+            .Include(p => p.Brand)
+            .Include(p => p.Category)
+            .Include(p => p.Gallery)
+            .Include(p => p.Sizes)
+            .Include(p => p.Features)
+            .Select(p => new ProductReadDto(p))
+            .FirstOrDefault();
         return product == null ? NotFound() : Ok(product);
     }
 }
