@@ -73,4 +73,26 @@ public class ProductsController : ControllerBase
         var result = new { id = product.Id };
         return CreatedAtAction(nameof(GetById), result, result);
     }
+
+    [HttpPost("batch")]
+    public async Task<IActionResult> CreateMany(ProductCreateDto[] items)
+    {
+        var results = new List<object>();
+
+        foreach (var productDto in items)
+        {
+            var brand = await _db.Brands.FindAsync(productDto.BrandId);
+            if (brand == null) return BadRequest($"Brand with ID {productDto.BrandId} does not exist.");
+
+            var category = await _db.Categories.FindAsync(productDto.CategoryId);
+            if (category == null) return BadRequest($"Category with ID {productDto.CategoryId} does not exist.");
+
+            var product = Product.FromCreateDto(productDto);
+            _db.Products.Add(product);
+            results.Add(new { id = product.Id });
+        }
+
+        await _db.SaveChangesAsync();
+        return Ok(results);
+    }
 }
