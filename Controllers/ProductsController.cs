@@ -23,9 +23,6 @@ public class ProductsController : ControllerBase
         var products = _db.Products
             .Include(p => p.Brand)
             .Include(p => p.Category)
-            .Include(p => p.Gallery)
-            .Include(p => p.Sizes)
-            .Include(p => p.Features)
             .Select(p => new ProductReadDto(p))
             .ToList();
         return Ok(products);
