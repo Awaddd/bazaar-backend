@@ -3,7 +3,7 @@
         "name": "Jordan 1 Cool Gray",
         "price": 149.0,
         "categoryId": 1,
-        "brandId": 1,
+        "brandId": 2,
         "description": "The Jordan 1 Cool Gray is a classic sneaker known for its clean design and versatile style, perfect for both casual wear and collectors.",
         "imageUrl": "/assets/jordan-1-gray.webp",
         "gallery": [
@@ -49,7 +49,7 @@
         "name": "Jordan 4 Blue",
         "price": 169.0,
         "categoryId": 1,
-        "brandId": 1,
+        "brandId": 2,
         "description": "The Jordan 4 Blue combines retro heritage with modern flair, featuring bold color blocking and legendary Air cushioning for all-day comfort.",
         "imageUrl": "/assets/products/jordan-4-blue.jpg",
         "gallery": [
@@ -187,7 +187,7 @@
         "name": "Asics GEL-1130",
         "price": 119.0,
         "categoryId": 1,
-        "brandId": 1,
+        "brandId": 7,
         "description": "The Asics GEL-1130 blends early 2000s running design with modern comfort, featuring GEL cushioning and a breathable build that’s perfect for daily wear.",
         "imageUrl": "/assets/products/asics-gel-1130.png",
         "gallery": [
@@ -371,7 +371,7 @@
         "name": "Jordan 4 Retro Blue",
         "price": 189.0,
         "categoryId": 1,
-        "brandId": 1,
+        "brandId": 2,
         "description": "The Jordan 4 Retro Blue brings back a fan-favorite silhouette with bold blue accents, premium materials, and signature Flight details that celebrate heritage and performance.",
         "imageUrl": "/assets/products/jordan-4-retro-blue.png",
         "gallery": [
@@ -417,7 +417,7 @@
         "name": "Jordan 1 Green",
         "price": 159.0,
         "categoryId": 1,
-        "brandId": 1,
+        "brandId": 2,
         "description": "The Jordan 1 Green updates the original high-top silhouette with rich green accents and timeless design. Featuring premium materials and Air cushioning, it's a staple on and off the court.",
         "imageUrl": "/assets/products/jordan-1-green.png",
         "gallery": [
