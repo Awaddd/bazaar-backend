@@ -77,8 +77,6 @@ public class ProductsController : ControllerBase
     [HttpPost("batch")]
     public async Task<IActionResult> CreateMany(ProductCreateDto[] items)
     {
-        var results = new List<object>();
-
         foreach (var productDto in items)
         {
             var brand = await _db.Brands.FindAsync(productDto.BrandId);
@@ -89,10 +87,9 @@ public class ProductsController : ControllerBase
 
             var product = Product.FromCreateDto(productDto);
             _db.Products.Add(product);
-            results.Add(new { id = product.Id });
         }
 
         await _db.SaveChangesAsync();
-        return Ok(results);
+        return Ok(new { success = true });
     }
 }
