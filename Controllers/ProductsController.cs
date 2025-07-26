@@ -18,7 +18,7 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult GetAll([FromQuery] int? limit, [FromQuery] int page = 1)
+    public IActionResult GetAll([FromQuery] int? exclude, [FromQuery] int? limit, [FromQuery] int page = 1)
     {
         var query = _db.Products
             .Include(p => p.Brand)
@@ -26,7 +26,13 @@ public class ProductsController : ControllerBase
             .OrderByDescending(p => p.Id)
             .AsQueryable();
 
-        if (limit.HasValue) {
+        if (exclude.HasValue)
+        {
+            query = query.Where(p => p.Id != exclude.Value);
+        }
+
+        if (limit.HasValue)
+        {
             var skip = (page - 1) * limit.Value;
             query = query.Skip(skip).Take(limit.Value);
         }
