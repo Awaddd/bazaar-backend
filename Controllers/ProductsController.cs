@@ -40,24 +40,7 @@ public class ProductsController : ControllerBase
         var category = await _db.Categories.FindAsync(productDto.CategoryId);
         if (category == null) return BadRequest($"Category with ID {productDto.CategoryId} does not exist.");
 
-        var features = productDto.Features.Select(f => new ProductFeature { Value = f }).ToList();
-        var gallery = productDto.Gallery.Select(url => new ProductImage { Url = url }).ToList();
-        var sizes = productDto.Sizes.Select(s => new ProductSize { Size = s.Size, Available = s.Available }).ToList();
-
-        var product = new Product
-        {
-            Name = productDto.Name,
-            Price = (int)Math.Round(productDto.Price), // temp round
-            Description = productDto.Description,
-            ImageUrl = productDto.ImageUrl,
-            CareInstructions = productDto.CareInstructions,
-            BrandId = productDto.BrandId,
-            CategoryId = productDto.CategoryId,
-
-            Features = features,
-            Gallery = gallery,
-            Sizes = sizes
-        };
+        var product = Product.FromCreateDto(productDto);
 
         _db.Products.Add(product);
         await _db.SaveChangesAsync();
