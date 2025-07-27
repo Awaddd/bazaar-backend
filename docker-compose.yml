@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "80:80"
+      - "5176:80"
     restart: always
     volumes:
       - sqlite-data:/app  # Mounts /app to volume, which will contain the DB
