@@ -1,0 +1,2548 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "assets/products/asics-gel-1130-2.1hsqwlvk2c.png",
+      "AssetFile": "assets/products/asics-gel-1130-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153867"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W2lnIqeMzOuLfvIPKi2uADnbmi7r58E2vSxjTZX4mYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:48:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1hsqwlvk2c"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W2lnIqeMzOuLfvIPKi2uADnbmi7r58E2vSxjTZX4mYw="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/asics-gel-1130-2.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/asics-gel-1130-2.png",
+      "AssetFile": "assets/products/asics-gel-1130-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153867"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W2lnIqeMzOuLfvIPKi2uADnbmi7r58E2vSxjTZX4mYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:48:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W2lnIqeMzOuLfvIPKi2uADnbmi7r58E2vSxjTZX4mYw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/asics-gel-1130-3.png",
+      "AssetFile": "assets/products/asics-gel-1130-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tRlAq3dfb7aoBHFLO8Jhl0ieiCbgwexlk1/UTLu3TS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:48:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tRlAq3dfb7aoBHFLO8Jhl0ieiCbgwexlk1/UTLu3TS4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/asics-gel-1130-3.v7baz3mher.png",
+      "AssetFile": "assets/products/asics-gel-1130-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tRlAq3dfb7aoBHFLO8Jhl0ieiCbgwexlk1/UTLu3TS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:48:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v7baz3mher"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tRlAq3dfb7aoBHFLO8Jhl0ieiCbgwexlk1/UTLu3TS4="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/asics-gel-1130-3.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/asics-gel-1130.8bv3zx3iqy.png",
+      "AssetFile": "assets/products/asics-gel-1130.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vGddQafc85DD5GU/c/KffO9som28ANACPi8ypQ8kayg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:47:29 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8bv3zx3iqy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vGddQafc85DD5GU/c/KffO9som28ANACPi8ypQ8kayg="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/asics-gel-1130.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/asics-gel-1130.png",
+      "AssetFile": "assets/products/asics-gel-1130.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vGddQafc85DD5GU/c/KffO9som28ANACPi8ypQ8kayg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:47:29 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vGddQafc85DD5GU/c/KffO9som28ANACPi8ypQ8kayg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-gray-2.5irhclahff.webp",
+      "AssetFile": "assets/products/jordan-1-gray-2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fYXj/qkhlxxSLUTwE9tgAqmwpJSEfARK3lhuwGmpSo0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Jul 2025 14:44:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5irhclahff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fYXj/qkhlxxSLUTwE9tgAqmwpJSEfARK3lhuwGmpSo0="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-1-gray-2.webp"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-gray-2.webp",
+      "AssetFile": "assets/products/jordan-1-gray-2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fYXj/qkhlxxSLUTwE9tgAqmwpJSEfARK3lhuwGmpSo0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Jul 2025 14:44:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fYXj/qkhlxxSLUTwE9tgAqmwpJSEfARK3lhuwGmpSo0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-gray-3.4nn7unfdjb.jpg",
+      "AssetFile": "assets/products/jordan-1-gray-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "869930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kMLquhoQ05uydgDPFc3XqvVJATdf0R8+8hfJmBZ8Rbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Jul 2025 14:47:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4nn7unfdjb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kMLquhoQ05uydgDPFc3XqvVJATdf0R8+8hfJmBZ8Rbw="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-1-gray-3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-gray-3.jpg",
+      "AssetFile": "assets/products/jordan-1-gray-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "869930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kMLquhoQ05uydgDPFc3XqvVJATdf0R8+8hfJmBZ8Rbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Jul 2025 14:47:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kMLquhoQ05uydgDPFc3XqvVJATdf0R8+8hfJmBZ8Rbw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-gray.tg9wkhhage.webp",
+      "AssetFile": "assets/products/jordan-1-gray.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EwA9h8zw8Le072/Bx74SQkqslzivkt7Q8LjQpDd6XeQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Jul 2025 14:40:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tg9wkhhage"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EwA9h8zw8Le072/Bx74SQkqslzivkt7Q8LjQpDd6XeQ="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-1-gray.webp"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-gray.webp",
+      "AssetFile": "assets/products/jordan-1-gray.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EwA9h8zw8Le072/Bx74SQkqslzivkt7Q8LjQpDd6XeQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Jul 2025 14:40:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EwA9h8zw8Le072/Bx74SQkqslzivkt7Q8LjQpDd6XeQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-green-2.gukgufeklv.png",
+      "AssetFile": "assets/products/jordan-1-green-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eNhS1eR+N+b4YeRUpJiNa4WhJ5yKyYfs8LXpU2g7rLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:08:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gukgufeklv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eNhS1eR+N+b4YeRUpJiNa4WhJ5yKyYfs8LXpU2g7rLk="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-1-green-2.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-green-2.png",
+      "AssetFile": "assets/products/jordan-1-green-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eNhS1eR+N+b4YeRUpJiNa4WhJ5yKyYfs8LXpU2g7rLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:08:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eNhS1eR+N+b4YeRUpJiNa4WhJ5yKyYfs8LXpU2g7rLk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-green-3.mhvvaef6zw.png",
+      "AssetFile": "assets/products/jordan-1-green-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KmO2aZRQX7IO+BUcUtDzTJY0r/fD4+jlBAY1Ohs6SkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:09:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mhvvaef6zw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KmO2aZRQX7IO+BUcUtDzTJY0r/fD4+jlBAY1Ohs6SkI="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-1-green-3.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-green-3.png",
+      "AssetFile": "assets/products/jordan-1-green-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KmO2aZRQX7IO+BUcUtDzTJY0r/fD4+jlBAY1Ohs6SkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:09:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KmO2aZRQX7IO+BUcUtDzTJY0r/fD4+jlBAY1Ohs6SkI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-green.os8jkq4zk8.png",
+      "AssetFile": "assets/products/jordan-1-green.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SO9lyZXMfq0Kd4Ssp1sQ3QyIkKVnCufbCBUblR7L0AM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:08:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "os8jkq4zk8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SO9lyZXMfq0Kd4Ssp1sQ3QyIkKVnCufbCBUblR7L0AM="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-1-green.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-1-green.png",
+      "AssetFile": "assets/products/jordan-1-green.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SO9lyZXMfq0Kd4Ssp1sQ3QyIkKVnCufbCBUblR7L0AM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:08:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SO9lyZXMfq0Kd4Ssp1sQ3QyIkKVnCufbCBUblR7L0AM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-blue-2.jpg",
+      "AssetFile": "assets/products/jordan-4-blue-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JzZcn6Hx6JdGJLHLHKYSqj41EZ8gdZe9vKlZKBGG50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 02:34:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JzZcn6Hx6JdGJLHLHKYSqj41EZ8gdZe9vKlZKBGG50="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-blue-2.kiuezaawxd.jpg",
+      "AssetFile": "assets/products/jordan-4-blue-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JzZcn6Hx6JdGJLHLHKYSqj41EZ8gdZe9vKlZKBGG50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 02:34:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kiuezaawxd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JzZcn6Hx6JdGJLHLHKYSqj41EZ8gdZe9vKlZKBGG50="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-4-blue-2.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-blue-3.7bqpxdtyf0.jpg",
+      "AssetFile": "assets/products/jordan-4-blue-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c7bCH3F7QGUyK6HxyA+/tVOvTVZTQrcJP2HbnMKcf8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 02:34:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7bqpxdtyf0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c7bCH3F7QGUyK6HxyA+/tVOvTVZTQrcJP2HbnMKcf8Q="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-4-blue-3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-blue-3.jpg",
+      "AssetFile": "assets/products/jordan-4-blue-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c7bCH3F7QGUyK6HxyA+/tVOvTVZTQrcJP2HbnMKcf8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 02:34:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c7bCH3F7QGUyK6HxyA+/tVOvTVZTQrcJP2HbnMKcf8Q="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-blue-4.jpg",
+      "AssetFile": "assets/products/jordan-4-blue-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yM7KVliMzb1aP80GypMNwJPFUmWiDNoMzDyXfEynqTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 02:34:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yM7KVliMzb1aP80GypMNwJPFUmWiDNoMzDyXfEynqTc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-blue-4.kdm2t9r19t.jpg",
+      "AssetFile": "assets/products/jordan-4-blue-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yM7KVliMzb1aP80GypMNwJPFUmWiDNoMzDyXfEynqTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 02:34:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kdm2t9r19t"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yM7KVliMzb1aP80GypMNwJPFUmWiDNoMzDyXfEynqTc="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-4-blue-4.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-blue.jpg",
+      "AssetFile": "assets/products/jordan-4-blue.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7429"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hCF9uM3ELuB4aulUn1nJl7nbTmjKMhLypTvulG1yjPY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 02:34:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hCF9uM3ELuB4aulUn1nJl7nbTmjKMhLypTvulG1yjPY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-blue.wlj57qmrt2.jpg",
+      "AssetFile": "assets/products/jordan-4-blue.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7429"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hCF9uM3ELuB4aulUn1nJl7nbTmjKMhLypTvulG1yjPY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 02:34:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wlj57qmrt2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hCF9uM3ELuB4aulUn1nJl7nbTmjKMhLypTvulG1yjPY="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-4-blue.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-retro-blue-2.ks2zfdlnkg.png",
+      "AssetFile": "assets/products/jordan-4-retro-blue-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "328274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Ms7ZU8N9NtEk8RjHadEja3eDfcqDWruoy+NOuZBmoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:07:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ks2zfdlnkg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Ms7ZU8N9NtEk8RjHadEja3eDfcqDWruoy+NOuZBmoc="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-4-retro-blue-2.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-retro-blue-2.png",
+      "AssetFile": "assets/products/jordan-4-retro-blue-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "328274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Ms7ZU8N9NtEk8RjHadEja3eDfcqDWruoy+NOuZBmoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:07:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Ms7ZU8N9NtEk8RjHadEja3eDfcqDWruoy+NOuZBmoc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-retro-blue-3.09cb7lc4hf.png",
+      "AssetFile": "assets/products/jordan-4-retro-blue-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "301714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xK2VmhrHyLEEF9yVuyY6ch1gcZUI9787hf8PUru7FVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:07:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "09cb7lc4hf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xK2VmhrHyLEEF9yVuyY6ch1gcZUI9787hf8PUru7FVQ="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-4-retro-blue-3.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-retro-blue-3.png",
+      "AssetFile": "assets/products/jordan-4-retro-blue-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "301714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xK2VmhrHyLEEF9yVuyY6ch1gcZUI9787hf8PUru7FVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:07:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xK2VmhrHyLEEF9yVuyY6ch1gcZUI9787hf8PUru7FVQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-retro-blue.png",
+      "AssetFile": "assets/products/jordan-4-retro-blue.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "155217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o998xqj4a9eR+ZszkHqXuNMsAI27CapjStPo9D9N3bw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:06:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o998xqj4a9eR+ZszkHqXuNMsAI27CapjStPo9D9N3bw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/jordan-4-retro-blue.xng00b85ql.png",
+      "AssetFile": "assets/products/jordan-4-retro-blue.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "155217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o998xqj4a9eR+ZszkHqXuNMsAI27CapjStPo9D9N3bw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:06:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xng00b85ql"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o998xqj4a9eR+ZszkHqXuNMsAI27CapjStPo9D9N3bw="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/jordan-4-retro-blue.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-black-2.abmgnd6le4.png",
+      "AssetFile": "assets/products/nike-air-force-1-black-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsBYGazBYLz+qjeLgbH7G+8O50x6rg0imFRlU5WN224=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:03:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "abmgnd6le4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsBYGazBYLz+qjeLgbH7G+8O50x6rg0imFRlU5WN224="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-force-1-black-2.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-black-2.png",
+      "AssetFile": "assets/products/nike-air-force-1-black-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsBYGazBYLz+qjeLgbH7G+8O50x6rg0imFRlU5WN224=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:03:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsBYGazBYLz+qjeLgbH7G+8O50x6rg0imFRlU5WN224="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-black-3.3bttqr8tz3.png",
+      "AssetFile": "assets/products/nike-air-force-1-black-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n5+THDvhF+hFBYbyE0FHXJs74pcbTWlS+jFSGIxV+YY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:04:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3bttqr8tz3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n5+THDvhF+hFBYbyE0FHXJs74pcbTWlS+jFSGIxV+YY="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-force-1-black-3.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-black-3.png",
+      "AssetFile": "assets/products/nike-air-force-1-black-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n5+THDvhF+hFBYbyE0FHXJs74pcbTWlS+jFSGIxV+YY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:04:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n5+THDvhF+hFBYbyE0FHXJs74pcbTWlS+jFSGIxV+YY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-black.png",
+      "AssetFile": "assets/products/nike-air-force-1-black.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C3JroT07JLuc46B53ZWZ7uiJxuA3SLTHy91O9dhM4vA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:03:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C3JroT07JLuc46B53ZWZ7uiJxuA3SLTHy91O9dhM4vA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-black.xxj8ngkmgo.png",
+      "AssetFile": "assets/products/nike-air-force-1-black.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C3JroT07JLuc46B53ZWZ7uiJxuA3SLTHy91O9dhM4vA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:03:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xxj8ngkmgo"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C3JroT07JLuc46B53ZWZ7uiJxuA3SLTHy91O9dhM4vA="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-force-1-black.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-white-2.png",
+      "AssetFile": "assets/products/nike-air-force-1-white-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0GOgY1MqNQENo6EKkyAPIU5tWnrkSSi/Fvsk5nkRoD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:05:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0GOgY1MqNQENo6EKkyAPIU5tWnrkSSi/Fvsk5nkRoD4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-white-2.ws0bvfr78v.png",
+      "AssetFile": "assets/products/nike-air-force-1-white-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0GOgY1MqNQENo6EKkyAPIU5tWnrkSSi/Fvsk5nkRoD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:05:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ws0bvfr78v"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0GOgY1MqNQENo6EKkyAPIU5tWnrkSSi/Fvsk5nkRoD4="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-force-1-white-2.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-white-3.mvgysko92b.png",
+      "AssetFile": "assets/products/nike-air-force-1-white-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DkqNVqDWoWeaJtxJGTGloS2Hn1e/kL3Vt8hrMJGOzWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:06:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mvgysko92b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DkqNVqDWoWeaJtxJGTGloS2Hn1e/kL3Vt8hrMJGOzWE="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-force-1-white-3.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-white-3.png",
+      "AssetFile": "assets/products/nike-air-force-1-white-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DkqNVqDWoWeaJtxJGTGloS2Hn1e/kL3Vt8hrMJGOzWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:06:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DkqNVqDWoWeaJtxJGTGloS2Hn1e/kL3Vt8hrMJGOzWE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-white.56fjbcutla.png",
+      "AssetFile": "assets/products/nike-air-force-1-white.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3H6gXCXlxK+DLdIeqcnvBcVKsyffuCSlmdFxqZdz8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:19:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "56fjbcutla"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c3H6gXCXlxK+DLdIeqcnvBcVKsyffuCSlmdFxqZdz8M="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-force-1-white.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-force-1-white.png",
+      "AssetFile": "assets/products/nike-air-force-1-white.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3H6gXCXlxK+DLdIeqcnvBcVKsyffuCSlmdFxqZdz8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:19:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c3H6gXCXlxK+DLdIeqcnvBcVKsyffuCSlmdFxqZdz8M="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-beige-2.png",
+      "AssetFile": "assets/products/nike-air-max-90-beige-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jYd6pHU3QUFshys6/ohymDVk5J+pNMcCEKkXWHHOTYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:41:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jYd6pHU3QUFshys6/ohymDVk5J+pNMcCEKkXWHHOTYg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-beige-2.xbm2uzmou5.png",
+      "AssetFile": "assets/products/nike-air-max-90-beige-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jYd6pHU3QUFshys6/ohymDVk5J+pNMcCEKkXWHHOTYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:41:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xbm2uzmou5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jYd6pHU3QUFshys6/ohymDVk5J+pNMcCEKkXWHHOTYg="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-max-90-beige-2.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-beige-3.png",
+      "AssetFile": "assets/products/nike-air-max-90-beige-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "368247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3o8oelBQp0GGcFsgh+csJktHyyLhT1VTJWkZaKWFnqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:42:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3o8oelBQp0GGcFsgh+csJktHyyLhT1VTJWkZaKWFnqs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-beige-3.y4rzs8cerl.png",
+      "AssetFile": "assets/products/nike-air-max-90-beige-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "368247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3o8oelBQp0GGcFsgh+csJktHyyLhT1VTJWkZaKWFnqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:42:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y4rzs8cerl"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3o8oelBQp0GGcFsgh+csJktHyyLhT1VTJWkZaKWFnqs="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-max-90-beige-3.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-beige.png",
+      "AssetFile": "assets/products/nike-air-max-90-beige.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TU2S26tahTyCsCHG9uXneFZ+n93/p1E5H6XYsYqxNFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:41:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TU2S26tahTyCsCHG9uXneFZ+n93/p1E5H6XYsYqxNFE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-beige.zgpb5yn8jb.png",
+      "AssetFile": "assets/products/nike-air-max-90-beige.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TU2S26tahTyCsCHG9uXneFZ+n93/p1E5H6XYsYqxNFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:41:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zgpb5yn8jb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TU2S26tahTyCsCHG9uXneFZ+n93/p1E5H6XYsYqxNFE="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-max-90-beige.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-orange-2.ov5ysmpy7j.png",
+      "AssetFile": "assets/products/nike-air-max-90-orange-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RBZQ428igtJClmhOFv26L9c5on6mkv69P8qTYUW/8Go=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:23:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ov5ysmpy7j"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RBZQ428igtJClmhOFv26L9c5on6mkv69P8qTYUW/8Go="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-max-90-orange-2.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-orange-2.png",
+      "AssetFile": "assets/products/nike-air-max-90-orange-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RBZQ428igtJClmhOFv26L9c5on6mkv69P8qTYUW/8Go=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:23:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RBZQ428igtJClmhOFv26L9c5on6mkv69P8qTYUW/8Go="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-orange-3.7k6vk3zpt0.png",
+      "AssetFile": "assets/products/nike-air-max-90-orange-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cd3Y4quZIJ7OjKJHVxGBBAsAUBNIV4D/MQBscsL8wIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:24:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7k6vk3zpt0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cd3Y4quZIJ7OjKJHVxGBBAsAUBNIV4D/MQBscsL8wIU="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-max-90-orange-3.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-orange-3.png",
+      "AssetFile": "assets/products/nike-air-max-90-orange-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cd3Y4quZIJ7OjKJHVxGBBAsAUBNIV4D/MQBscsL8wIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:24:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cd3Y4quZIJ7OjKJHVxGBBAsAUBNIV4D/MQBscsL8wIU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-orange.i8a1ru4d3k.png",
+      "AssetFile": "assets/products/nike-air-max-90-orange.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "155819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ep2ce7d/NA9FXL5NDhp1HZqOVhSSpcxjAdzHVe3ueK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:23:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i8a1ru4d3k"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ep2ce7d/NA9FXL5NDhp1HZqOVhSSpcxjAdzHVe3ueK0="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-air-max-90-orange.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-air-max-90-orange.png",
+      "AssetFile": "assets/products/nike-air-max-90-orange.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "155819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ep2ce7d/NA9FXL5NDhp1HZqOVhSSpcxjAdzHVe3ueK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:23:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ep2ce7d/NA9FXL5NDhp1HZqOVhSSpcxjAdzHVe3ueK0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-p-6000-2.bo16dn4wmb.png",
+      "AssetFile": "assets/products/nike-p-6000-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165710"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+3a8dzl5cC0C32EQXi/WExiv8suh044O1y0RryDBhCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:53:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bo16dn4wmb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+3a8dzl5cC0C32EQXi/WExiv8suh044O1y0RryDBhCY="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-p-6000-2.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-p-6000-2.png",
+      "AssetFile": "assets/products/nike-p-6000-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165710"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+3a8dzl5cC0C32EQXi/WExiv8suh044O1y0RryDBhCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:53:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+3a8dzl5cC0C32EQXi/WExiv8suh044O1y0RryDBhCY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-p-6000-3.png",
+      "AssetFile": "assets/products/nike-p-6000-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Erb0Ch6YA2Uaf8vAkaSaLse6T1ilrZ6d/FjzlPcj3v8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:53:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Erb0Ch6YA2Uaf8vAkaSaLse6T1ilrZ6d/FjzlPcj3v8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-p-6000-3.ywr7xjs60z.png",
+      "AssetFile": "assets/products/nike-p-6000-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Erb0Ch6YA2Uaf8vAkaSaLse6T1ilrZ6d/FjzlPcj3v8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:53:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ywr7xjs60z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Erb0Ch6YA2Uaf8vAkaSaLse6T1ilrZ6d/FjzlPcj3v8="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-p-6000-3.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-p-6000.png",
+      "AssetFile": "assets/products/nike-p-6000.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vdrdT88z3EpMcllQfq2q0gW8ih9OWlZ2fZ0fHrPW5cY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:52:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vdrdT88z3EpMcllQfq2q0gW8ih9OWlZ2fZ0fHrPW5cY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/products/nike-p-6000.x72muexx10.png",
+      "AssetFile": "assets/products/nike-p-6000.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vdrdT88z3EpMcllQfq2q0gW8ih9OWlZ2fZ0fHrPW5cY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 14:52:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x72muexx10"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vdrdT88z3EpMcllQfq2q0gW8ih9OWlZ2fZ0fHrPW5cY="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/products/nike-p-6000.png"
+        }
+      ]
+    }
+  ]
+}
