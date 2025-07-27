@@ -63,3 +63,4 @@ secrets.json
 iisexpress/
 commerce.db-wal
 commerce.db-shm
+commerce.db

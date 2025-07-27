@@ -7,6 +7,9 @@ WORKDIR /app
 # Copy published output
 COPY out/ ./
 
+# Copy your SQLite DB into the container
+COPY commerce.db ./commerce.db
+
 # Expose default port
 EXPOSE 80
 
