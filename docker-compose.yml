@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    restart: always
+    volumes:
+      - sqlite-data:/app  # Mounts /app to volume, which will contain the DB
+
+volumes:
+  sqlite-data:

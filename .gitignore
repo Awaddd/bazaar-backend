@@ -64,3 +64,4 @@ iisexpress/
 commerce.db-wal
 commerce.db-shm
 commerce.db
+/out
