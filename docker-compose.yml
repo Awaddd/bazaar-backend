@@ -8,8 +8,8 @@ services:
     ports:
       - "5176:8080"
     restart: always
-    volumes:
-      - sqlite-data:/app  # Mounts /app to volume, which will contain the DB
+#     volumes:
+#       - sqlite-data:/app  # Mounts /app to volume, which will contain the DB
 
-volumes:
-  sqlite-data:
+# volumes:
+#   sqlite-data:
