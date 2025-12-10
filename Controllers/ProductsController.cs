@@ -18,18 +18,61 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult GetAll([FromQuery] int? exclude, [FromQuery] int? limit, [FromQuery] int page = 1)
+    public IActionResult GetAll(
+        [FromQuery] int? exclude,
+        [FromQuery] int? limit,
+        [FromQuery] int page = 1,
+        [FromQuery] string? brands = null,
+        [FromQuery] decimal? minPrice = null,
+        [FromQuery] decimal? maxPrice = null,
+        [FromQuery] int? size = null,
+        [FromQuery] string? search = null,
+        [FromQuery] string? sort = null)
     {
         var query = _db.Products
             .Include(p => p.Brand)
             .Include(p => p.Category)
-            .OrderByDescending(p => p.Id)
+            .Include(p => p.Sizes)
             .AsQueryable();
 
         if (exclude.HasValue)
         {
             query = query.Where(p => p.Id != exclude.Value);
         }
+
+        if (!string.IsNullOrWhiteSpace(brands))
+        {
+            var brandList = brands.Split(',').Select(b => b.Trim()).ToList();
+            query = query.Where(p => brandList.Contains(p.Brand.Name));
+        }
+
+        if (minPrice.HasValue)
+        {
+            query = query.Where(p => p.Price >= minPrice.Value);
+        }
+
+        if (maxPrice.HasValue)
+        {
+            query = query.Where(p => p.Price <= maxPrice.Value);
+        }
+
+        if (size.HasValue)
+        {
+            query = query.Where(p => p.Sizes.Any(s => s.Size == size.Value && s.Available));
+        }
+
+        if (!string.IsNullOrWhiteSpace(search))
+        {
+            query = query.Where(p => p.Name.Contains(search));
+        }
+
+        query = sort?.ToLower() switch
+        {
+            "price_asc" => query.OrderBy(p => p.Price),
+            "price_desc" => query.OrderByDescending(p => p.Price),
+            "name_asc" => query.OrderBy(p => p.Name),
+            _ => query.OrderByDescending(p => p.Id)
+        };
 
         if (limit.HasValue)
         {
