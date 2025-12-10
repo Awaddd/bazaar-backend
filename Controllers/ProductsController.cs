@@ -25,7 +25,7 @@ public class ProductsController : ControllerBase
         [FromQuery] string? brands = null,
         [FromQuery] decimal? minPrice = null,
         [FromQuery] decimal? maxPrice = null,
-        [FromQuery] int? size = null,
+        [FromQuery] string? sizes = null,
         [FromQuery] string? search = null,
         [FromQuery] string? sort = null)
     {
@@ -56,20 +56,21 @@ public class ProductsController : ControllerBase
             query = query.Where(p => p.Price <= maxPrice.Value);
         }
 
-        if (size.HasValue)
+        if (!string.IsNullOrWhiteSpace(sizes))
         {
-            query = query.Where(p => p.Sizes.Any(s => s.Size == size.Value && s.Available));
+            var sizeList = sizes.Split(',').Select(s => int.Parse(s.Trim())).ToList();
+            query = query.Where(p => p.Sizes.Any(s => sizeList.Contains(s.Size) && s.Available));
         }
 
         if (!string.IsNullOrWhiteSpace(search))
         {
-            query = query.Where(p => p.Name.Contains(search));
+            query = query.Where(p => p.Name.ToLower().Contains(search.ToLower()));
         }
 
         query = sort?.ToLower() switch
         {
-            "price_asc" => query.OrderBy(p => p.Price),
-            "price_desc" => query.OrderByDescending(p => p.Price),
+            "price_asc" => query.OrderBy(p => (double)p.Price),
+            "price_desc" => query.OrderByDescending(p => (double)p.Price),
             "name_asc" => query.OrderBy(p => p.Name),
             _ => query.OrderByDescending(p => p.Id)
         };

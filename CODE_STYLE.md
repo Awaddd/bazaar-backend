@@ -53,7 +53,7 @@ public IActionResult GetAll(
     [FromQuery] string? brands = null,      // comma-separated: "Nike,Jordan"
     [FromQuery] decimal? minPrice = null,
     [FromQuery] decimal? maxPrice = null,
-    [FromQuery] int? size = null,
+    [FromQuery] string? sizes = null,
     [FromQuery] string? search = null,
     [FromQuery] string? sort = null)        // price_asc, price_desc, name_asc, featured
 ```
@@ -90,10 +90,11 @@ if (maxPrice.HasValue)
     query = query.Where(p => p.Price <= maxPrice.Value);
 }
 
-// Size filter (products that have this size available)
-if (size.HasValue)
+// Size filter (products that have any of these sizes available)
+if (!string.IsNullOrWhiteSpace(sizes))
 {
-    query = query.Where(p => p.Sizes.Any(s => s.Size == size.Value && s.Available));
+    var sizeList = sizes.Split(',').Select(s => int.Parse(s.Trim())).ToList();
+    query = query.Where(p => p.Sizes.Any(s => sizeList.Contains(s.Size) && s.Available));
 }
 
 // Search in name
@@ -128,7 +129,8 @@ GET /api/products                              # All products
 GET /api/products?brands=Nike                  # Nike only
 GET /api/products?brands=Nike,Jordan           # Nike or Jordan
 GET /api/products?minPrice=100&maxPrice=200    # Price range
-GET /api/products?size=9                       # Has size 9 available
+GET /api/products?sizes=9                      # Has size 9 available
+GET /api/products?sizes=8,9,10                 # Has size 8, 9, or 10 available
 GET /api/products?search=Air                   # Name contains "Air"
 GET /api/products?sort=price_asc               # Cheapest first
 GET /api/products?brands=Nike&sort=price_desc  # Combined filters
