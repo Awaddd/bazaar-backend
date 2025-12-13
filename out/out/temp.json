@@ -1,0 +1,462 @@
+[
+    {
+        "name": "Jordan 1 Cool Gray",
+        "price": 149.0,
+        "categoryId": 1,
+        "brandId": 2,
+        "description": "The Jordan 1 Cool Gray is a classic sneaker known for its clean design and versatile style, perfect for both casual wear and collectors.",
+        "imageUrl": "/assets/jordan-1-gray.webp",
+        "gallery": [
+            "/assets/jordan-1-gray.webp",
+            "/assets/jordan-1-gray-2.webp",
+            "/assets/jordan-1-gray-3.jpg"
+        ],
+        "features": [
+            "High-quality leather upper",
+            "Durable rubber outsole",
+            "Lightweight cushioning for comfort",
+            "Iconic Off-White design elements"
+        ],
+        "careInstructions": "Clean with a damp cloth. Avoid exposure to direct sunlight for extended periods.",
+        "sizes": [
+            {
+                "size": 6,
+                "available": true
+            },
+            {
+                "size": 7,
+                "available": true
+            },
+            {
+                "size": 8,
+                "available": true
+            },
+            {
+                "size": 9,
+                "available": true
+            },
+            {
+                "size": 10,
+                "available": false
+            },
+            {
+                "size": 11,
+                "available": false
+            }
+        ]
+    },
+    {
+        "name": "Jordan 4 Blue",
+        "price": 169.0,
+        "categoryId": 1,
+        "brandId": 2,
+        "description": "The Jordan 4 Blue combines retro heritage with modern flair, featuring bold color blocking and legendary Air cushioning for all-day comfort.",
+        "imageUrl": "/assets/products/jordan-4-blue.jpg",
+        "gallery": [
+            "/assets/products/jordan-4-blue.jpg",
+            "/assets/products/jordan-4-blue-2.jpg",
+            "/assets/products/jordan-4-blue-3.jpg"
+        ],
+        "features": [
+            "Premium nubuck upper with mesh paneling",
+            "Visible Air-Sole unit in heel",
+            "Herringbone outsole for traction",
+            "Classic Flight branding and TPU eyelets"
+        ],
+        "careInstructions": "Spot clean with mild soap and water. Do not machine wash. Air dry only.",
+        "sizes": [
+            {
+                "size": 6,
+                "available": true
+            },
+            {
+                "size": 7,
+                "available": true
+            },
+            {
+                "size": 8,
+                "available": true
+            },
+            {
+                "size": 9,
+                "available": true
+            },
+            {
+                "size": 10,
+                "available": true
+            },
+            {
+                "size": 11,
+                "available": false
+            }
+        ]
+    },
+    {
+        "name": "Nike Air Max 90 Orange",
+        "price": 149.0,
+        "categoryId": 1,
+        "brandId": 1,
+        "description": "The Nike Air Max 90 Orange reinvents the classic silhouette with striking color pops and the iconic Max Air cushioning that delivers timeless comfort and street-ready style.",
+        "imageUrl": "/assets/products/air-max-90-orange.jpg",
+        "gallery": [
+            "/assets/products/air-max-90-orange.jpg",
+            "/assets/products/air-max-90-orange-2.jpg",
+            "/assets/products/air-max-90-orange-3.jpg"
+        ],
+        "features": [
+            "Durable leather and mesh upper for breathability",
+            "Visible Max Air unit for lightweight cushioning",
+            "Rubber outsole with waffle pattern for traction",
+            "Padded collar and flex grooves for natural movement"
+        ],
+        "careInstructions": "Clean with a soft brush and warm water. Avoid machine washing. Let air dry away from direct sunlight.",
+        "sizes": [
+            {
+                "size": 6,
+                "available": true
+            },
+            {
+                "size": 7,
+                "available": true
+            },
+            {
+                "size": 8,
+                "available": false
+            },
+            {
+                "size": 9,
+                "available": true
+            },
+            {
+                "size": 10,
+                "available": true
+            },
+            {
+                "size": 11,
+                "available": true
+            }
+        ]
+    },
+    {
+        "name": "Nike Air Max 90 Beige",
+        "price": 149.0,
+        "categoryId": 1,
+        "brandId": 1,
+        "description": "The Nike Air Max 90 Beige delivers refined streetwear style with a neutral tone palette, iconic Max Air cushioning, and premium materials built for everyday comfort.",
+        "imageUrl": "/assets/products/nike-air-max-90-beige.png",
+        "gallery": [
+            "/assets/products/nike-air-max-90-beige.png",
+            "/assets/products/nike-air-max-90-beige-2.png",
+            "/assets/products/nike-air-max-90-beige-3.png"
+        ],
+        "features": [
+            "Smooth suede and mesh upper in neutral tones",
+            "Signature Max Air unit for responsive cushioning",
+            "Waffle outsole for multi-surface traction",
+            "Low-top design with padded collar for classic comfort"
+        ],
+        "careInstructions": "Use a suede brush or soft cloth for cleaning. Avoid direct heat. Air dry naturally.",
+        "sizes": [
+            {
+                "size": 6,
+                "available": true
+            },
+            {
+                "size": 7,
+                "available": false
+            },
+            {
+                "size": 8,
+                "available": true
+            },
+            {
+                "size": 9,
+                "available": true
+            },
+            {
+                "size": 10,
+                "available": true
+            },
+            {
+                "size": 11,
+                "available": true
+            }
+        ]
+    },
+    {
+        "name": "Asics GEL-1130",
+        "price": 119.0,
+        "categoryId": 1,
+        "brandId": 7,
+        "description": "The Asics GEL-1130 blends early 2000s running design with modern comfort, featuring GEL cushioning and a breathable build that’s perfect for daily wear.",
+        "imageUrl": "/assets/products/asics-gel-1130.png",
+        "gallery": [
+            "/assets/products/asics-gel-1130.png",
+            "/assets/products/asics-gel-1130-2.png",
+            "/assets/products/asics-gel-1130-3.png"
+        ],
+        "features": [
+            "Mesh and synthetic upper for lightweight support",
+            "GEL technology for shock absorption",
+            "TRUSSTIC system for stability",
+            "Padded tongue and collar for all-day comfort"
+        ],
+        "careInstructions": "Clean with a soft damp cloth. Avoid soaking. Air dry away from direct sunlight.",
+        "sizes": [
+            {
+                "size": 6,
+                "available": true
+            },
+            {
+                "size": 7,
+                "available": true
+            },
+            {
+                "size": 8,
+                "available": true
+            },
+            {
+                "size": 9,
+                "available": false
+            },
+            {
+                "size": 10,
+                "available": true
+            },
+            {
+                "size": 11,
+                "available": true
+            }
+        ]
+    },
+    {
+        "name": "Nike P-6000",
+        "price": 129.0,
+        "categoryId": 1,
+        "brandId": 1,
+        "description": "The Nike P-6000 merges retro running aesthetics with breathable mesh and layered overlays, offering all-day comfort in a bold, Y2K-inspired silhouette.",
+        "imageUrl": "/assets/products/nike-p-6000.png",
+        "gallery": [
+            "/assets/products/nike-p-6000.png",
+            "/assets/products/nike-p-6000-2.png",
+            "/assets/products/nike-p-6000-3.png"
+        ],
+        "features": [
+            "Breathable mesh with horizontal and vertical overlays",
+            "Foam midsole with lightweight cushioning",
+            "Rubber outsole for durable traction",
+            "Padded collar and tongue for comfort and support"
+        ],
+        "careInstructions": "Wipe with a damp cloth. Air dry. Avoid harsh cleaning products or machine washing.",
+        "sizes": [
+            {
+                "size": 6,
+                "available": true
+            },
+            {
+                "size": 7,
+                "available": true
+            },
+            {
+                "size": 8,
+                "available": false
+            },
+            {
+                "size": 9,
+                "available": true
+            },
+            {
+                "size": 10,
+                "available": true
+            },
+            {
+                "size": 11,
+                "available": true
+            }
+        ]
+    },
+    {
+        "name": "Nike Air Force 1 Black",
+        "price": 119.0,
+        "categoryId": 1,
+        "brandId": 1,
+        "description": "The Nike Air Force 1 Black keeps it classic with a clean monochrome look and legendary Air cushioning. A timeless street icon built for everyday wear.",
+        "imageUrl": "/assets/products/nike-air-force-1-black.png",
+        "gallery": [
+            "/assets/products/nike-air-force-1-black.png",
+            "/assets/products/nike-air-force-1-black-2.png",
+            "/assets/products/nike-air-force-1-black-3.png"
+        ],
+        "features": [
+            "Full-grain leather upper for a premium feel",
+            "Encapsulated Air-Sole unit for lightweight cushioning",
+            "Non-marking rubber outsole with pivot point for traction",
+            "Low-cut silhouette for a streamlined, versatile look"
+        ],
+        "careInstructions": "Wipe with a damp cloth. Use leather cleaner as needed. Do not machine wash or dry.",
+        "sizes": [
+            {
+                "size": 6,
+                "available": true
+            },
+            {
+                "size": 7,
+                "available": true
+            },
+            {
+                "size": 8,
+                "available": true
+            },
+            {
+                "size": 9,
+                "available": true
+            },
+            {
+                "size": 10,
+                "available": false
+            },
+            {
+                "size": 11,
+                "available": true
+            }
+        ]
+    },
+    {
+        "name": "Nike Air Force 1 White",
+        "price": 119.0,
+        "categoryId": 1,
+        "brandId": 1,
+        "description": "The Nike Air Force 1 White delivers iconic style with a crisp all-white finish, soft cushioning, and a durable build that stands the test of time.",
+        "imageUrl": "/assets/products/nike-air-force-1-white.png",
+        "gallery": [
+            "/assets/products/nike-air-force-1-white.png",
+            "/assets/products/nike-air-force-1-white-2.png",
+            "/assets/products/nike-air-force-1-white-3.png"
+        ],
+        "features": [
+            "Classic leather upper for a clean, timeless look",
+            "Nike Air cushioning for all-day comfort",
+            "Perforated toe box for breathability",
+            "Rubber outsole for grip and durability"
+        ],
+        "careInstructions": "Clean with a soft brush and mild soap. Air dry. Avoid bleach or harsh chemicals.",
+        "sizes": [
+            {
+                "size": 6,
+                "available": true
+            },
+            {
+                "size": 7,
+                "available": true
+            },
+            {
+                "size": 8,
+                "available": true
+            },
+            {
+                "size": 9,
+                "available": false
+            },
+            {
+                "size": 10,
+                "available": true
+            },
+            {
+                "size": 11,
+                "available": true
+            }
+        ]
+    },
+    {
+        "name": "Jordan 4 Retro Blue",
+        "price": 189.0,
+        "categoryId": 1,
+        "brandId": 2,
+        "description": "The Jordan 4 Retro Blue brings back a fan-favorite silhouette with bold blue accents, premium materials, and signature Flight details that celebrate heritage and performance.",
+        "imageUrl": "/assets/products/jordan-4-retro-blue.png",
+        "gallery": [
+            "/assets/products/jordan-4-retro-blue.png",
+            "/assets/products/jordan-4-retro-blue-2.png",
+            "/assets/products/jordan-4-retro-blue-3.png"
+        ],
+        "features": [
+            "Durable leather upper with mesh inserts for breathability",
+            "Visible Air-Sole unit in the heel for responsive cushioning",
+            "Molded TPU wings and lace locks for secure fit",
+            "Herringbone outsole pattern for traction and grip"
+        ],
+        "careInstructions": "Spot clean with a soft brush and gentle soap. Do not submerge in water. Air dry only.",
+        "sizes": [
+            {
+                "size": 6,
+                "available": false
+            },
+            {
+                "size": 7,
+                "available": true
+            },
+            {
+                "size": 8,
+                "available": true
+            },
+            {
+                "size": 9,
+                "available": true
+            },
+            {
+                "size": 10,
+                "available": true
+            },
+            {
+                "size": 11,
+                "available": true
+            }
+        ]
+    },
+    {
+        "name": "Jordan 1 Green",
+        "price": 159.0,
+        "categoryId": 1,
+        "brandId": 2,
+        "description": "The Jordan 1 Green updates the original high-top silhouette with rich green accents and timeless design. Featuring premium materials and Air cushioning, it's a staple on and off the court.",
+        "imageUrl": "/assets/products/jordan-1-green.png",
+        "gallery": [
+            "/assets/products/jordan-1-green.png",
+            "/assets/products/jordan-1-green-2.png",
+            "/assets/products/jordan-1-green-3.png"
+        ],
+        "features": [
+            "Premium leather upper with classic color blocking",
+            "Encapsulated Air-Sole unit for responsive cushioning",
+            "Solid rubber outsole for traction and durability",
+            "Padded collar for ankle support and comfort"
+        ],
+        "careInstructions": "Wipe clean with a soft cloth. Use leather conditioner as needed. Do not machine wash.",
+        "sizes": [
+            {
+                "size": 6,
+                "available": true
+            },
+            {
+                "size": 7,
+                "available": true
+            },
+            {
+                "size": 8,
+                "available": true
+            },
+            {
+                "size": 9,
+                "available": false
+            },
+            {
+                "size": 10,
+                "available": true
+            },
+            {
+                "size": 11,
+                "available": true
+            }
+        ]
+    }
+]
