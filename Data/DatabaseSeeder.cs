@@ -29,12 +29,12 @@ public static class DatabaseSeeder
             new() { Id = 1, Name = "Sneakers" }
         };
 
-        // Seed Products
+        // Seed Products (IDs 1-8)
         var products = new List<Product>
         {
             new()
             {
-                Id = 4,
+                Id = 1,
                 BrandId = 1,
                 CategoryId = 1,
                 Name = "Nike Air Max 90 Orange",
@@ -45,7 +45,7 @@ public static class DatabaseSeeder
             },
             new()
             {
-                Id = 5,
+                Id = 2,
                 BrandId = 1,
                 CategoryId = 1,
                 Name = "Nike Air Max 90 Beige",
@@ -56,7 +56,7 @@ public static class DatabaseSeeder
             },
             new()
             {
-                Id = 6,
+                Id = 3,
                 BrandId = 7,
                 CategoryId = 1,
                 Name = "Asics GEL-1130",
@@ -67,7 +67,7 @@ public static class DatabaseSeeder
             },
             new()
             {
-                Id = 7,
+                Id = 4,
                 BrandId = 1,
                 CategoryId = 1,
                 Name = "Nike P-6000",
@@ -78,7 +78,7 @@ public static class DatabaseSeeder
             },
             new()
             {
-                Id = 8,
+                Id = 5,
                 BrandId = 1,
                 CategoryId = 1,
                 Name = "Nike Air Force 1 Black",
@@ -89,7 +89,7 @@ public static class DatabaseSeeder
             },
             new()
             {
-                Id = 9,
+                Id = 6,
                 BrandId = 1,
                 CategoryId = 1,
                 Name = "Nike Air Force 1 White",
@@ -100,7 +100,7 @@ public static class DatabaseSeeder
             },
             new()
             {
-                Id = 10,
+                Id = 7,
                 BrandId = 2,
                 CategoryId = 1,
                 Name = "Jordan 4 Retro Blue",
@@ -111,7 +111,7 @@ public static class DatabaseSeeder
             },
             new()
             {
-                Id = 11,
+                Id = 8,
                 BrandId = 2,
                 CategoryId = 1,
                 Name = "Jordan 1 Green",
@@ -122,131 +122,147 @@ public static class DatabaseSeeder
             }
         };
 
-        // Seed ProductFeatures
+        // Seed ProductFeatures (4 per product, IDs 1-32)
         var features = new List<ProductFeature>
         {
-            new() { Id = 13, ProductId = 4, Value = "Durable leather and mesh upper for breathability" },
-            new() { Id = 14, ProductId = 4, Value = "Visible Max Air unit for lightweight cushioning" },
-            new() { Id = 15, ProductId = 4, Value = "Rubber outsole with waffle pattern for traction" },
-            new() { Id = 16, ProductId = 4, Value = "Padded collar and flex grooves for natural movement" },
-            new() { Id = 17, ProductId = 5, Value = "Smooth suede and mesh upper in neutral tones" },
-            new() { Id = 18, ProductId = 5, Value = "Signature Max Air unit for responsive cushioning" },
-            new() { Id = 19, ProductId = 5, Value = "Waffle outsole for multi-surface traction" },
-            new() { Id = 20, ProductId = 5, Value = "Low-top design with padded collar for classic comfort" },
-            new() { Id = 21, ProductId = 6, Value = "Mesh and synthetic upper for lightweight support" },
-            new() { Id = 22, ProductId = 6, Value = "GEL technology for shock absorption" },
-            new() { Id = 23, ProductId = 6, Value = "TRUSSTIC system for stability" },
-            new() { Id = 24, ProductId = 6, Value = "Padded tongue and collar for all-day comfort" },
-            new() { Id = 25, ProductId = 7, Value = "Breathable mesh with horizontal and vertical overlays" },
-            new() { Id = 26, ProductId = 7, Value = "Foam midsole with lightweight cushioning" },
-            new() { Id = 27, ProductId = 7, Value = "Rubber outsole for durable traction" },
-            new() { Id = 28, ProductId = 7, Value = "Padded collar and tongue for comfort and support" },
-            new() { Id = 29, ProductId = 8, Value = "Full-grain leather upper for a premium feel" },
-            new() { Id = 30, ProductId = 8, Value = "Encapsulated Air-Sole unit for lightweight cushioning" },
-            new() { Id = 31, ProductId = 8, Value = "Non-marking rubber outsole with pivot point for traction" },
-            new() { Id = 32, ProductId = 8, Value = "Low-cut silhouette for a streamlined, versatile look" },
-            new() { Id = 33, ProductId = 9, Value = "Classic leather upper for a clean, timeless look" },
-            new() { Id = 34, ProductId = 9, Value = "Nike Air cushioning for all-day comfort" },
-            new() { Id = 35, ProductId = 9, Value = "Perforated toe box for breathability" },
-            new() { Id = 36, ProductId = 9, Value = "Rubber outsole for grip and durability" },
-            new() { Id = 37, ProductId = 10, Value = "Durable leather upper with mesh inserts for breathability" },
-            new() { Id = 38, ProductId = 10, Value = "Visible Air-Sole unit in the heel for responsive cushioning" },
-            new() { Id = 39, ProductId = 10, Value = "Molded TPU wings and lace locks for secure fit" },
-            new() { Id = 40, ProductId = 10, Value = "Herringbone outsole pattern for traction and grip" },
-            new() { Id = 41, ProductId = 11, Value = "Premium leather upper with classic color blocking" },
-            new() { Id = 42, ProductId = 11, Value = "Encapsulated Air-Sole unit for responsive cushioning" },
-            new() { Id = 43, ProductId = 11, Value = "Solid rubber outsole for traction and durability" },
-            new() { Id = 44, ProductId = 11, Value = "Padded collar for ankle support and comfort" }
+            // Product 1: Nike Air Max 90 Orange
+            new() { Id = 1, ProductId = 1, Value = "Durable leather and mesh upper for breathability" },
+            new() { Id = 2, ProductId = 1, Value = "Visible Max Air unit for lightweight cushioning" },
+            new() { Id = 3, ProductId = 1, Value = "Rubber outsole with waffle pattern for traction" },
+            new() { Id = 4, ProductId = 1, Value = "Padded collar and flex grooves for natural movement" },
+            // Product 2: Nike Air Max 90 Beige
+            new() { Id = 5, ProductId = 2, Value = "Smooth suede and mesh upper in neutral tones" },
+            new() { Id = 6, ProductId = 2, Value = "Signature Max Air unit for responsive cushioning" },
+            new() { Id = 7, ProductId = 2, Value = "Waffle outsole for multi-surface traction" },
+            new() { Id = 8, ProductId = 2, Value = "Low-top design with padded collar for classic comfort" },
+            // Product 3: Asics GEL-1130
+            new() { Id = 9, ProductId = 3, Value = "Mesh and synthetic upper for lightweight support" },
+            new() { Id = 10, ProductId = 3, Value = "GEL technology for shock absorption" },
+            new() { Id = 11, ProductId = 3, Value = "TRUSSTIC system for stability" },
+            new() { Id = 12, ProductId = 3, Value = "Padded tongue and collar for all-day comfort" },
+            // Product 4: Nike P-6000
+            new() { Id = 13, ProductId = 4, Value = "Breathable mesh with horizontal and vertical overlays" },
+            new() { Id = 14, ProductId = 4, Value = "Foam midsole with lightweight cushioning" },
+            new() { Id = 15, ProductId = 4, Value = "Rubber outsole for durable traction" },
+            new() { Id = 16, ProductId = 4, Value = "Padded collar and tongue for comfort and support" },
+            // Product 5: Nike Air Force 1 Black
+            new() { Id = 17, ProductId = 5, Value = "Full-grain leather upper for a premium feel" },
+            new() { Id = 18, ProductId = 5, Value = "Encapsulated Air-Sole unit for lightweight cushioning" },
+            new() { Id = 19, ProductId = 5, Value = "Non-marking rubber outsole with pivot point for traction" },
+            new() { Id = 20, ProductId = 5, Value = "Low-cut silhouette for a streamlined, versatile look" },
+            // Product 6: Nike Air Force 1 White
+            new() { Id = 21, ProductId = 6, Value = "Classic leather upper for a clean, timeless look" },
+            new() { Id = 22, ProductId = 6, Value = "Nike Air cushioning for all-day comfort" },
+            new() { Id = 23, ProductId = 6, Value = "Perforated toe box for breathability" },
+            new() { Id = 24, ProductId = 6, Value = "Rubber outsole for grip and durability" },
+            // Product 7: Jordan 4 Retro Blue
+            new() { Id = 25, ProductId = 7, Value = "Durable leather upper with mesh inserts for breathability" },
+            new() { Id = 26, ProductId = 7, Value = "Visible Air-Sole unit in the heel for responsive cushioning" },
+            new() { Id = 27, ProductId = 7, Value = "Molded TPU wings and lace locks for secure fit" },
+            new() { Id = 28, ProductId = 7, Value = "Herringbone outsole pattern for traction and grip" },
+            // Product 8: Jordan 1 Green
+            new() { Id = 29, ProductId = 8, Value = "Premium leather upper with classic color blocking" },
+            new() { Id = 30, ProductId = 8, Value = "Encapsulated Air-Sole unit for responsive cushioning" },
+            new() { Id = 31, ProductId = 8, Value = "Solid rubber outsole for traction and durability" },
+            new() { Id = 32, ProductId = 8, Value = "Padded collar for ankle support and comfort" }
         };
 
-        // Seed ProductImages (only for products 4-11 that exist)
+        // Seed ProductImages (3 per product, IDs 1-24)
         var images = new List<ProductImage>
         {
-            new() { Id = 10, ProductId = 4, Url = "/assets/products/nike-air-max-90-orange.png" },
-            new() { Id = 11, ProductId = 4, Url = "/assets/products/nike-air-max-90-orange-2.png" },
-            new() { Id = 12, ProductId = 4, Url = "/assets/products/nike-air-max-90-orange-3.png" },
-            new() { Id = 13, ProductId = 5, Url = "/assets/products/nike-air-max-90-beige.png" },
-            new() { Id = 14, ProductId = 5, Url = "/assets/products/nike-air-max-90-beige-2.png" },
-            new() { Id = 15, ProductId = 5, Url = "/assets/products/nike-air-max-90-beige-3.png" },
-            new() { Id = 16, ProductId = 6, Url = "/assets/products/asics-gel-1130.png" },
-            new() { Id = 17, ProductId = 6, Url = "/assets/products/asics-gel-1130-2.png" },
-            new() { Id = 18, ProductId = 6, Url = "/assets/products/asics-gel-1130-3.png" },
-            new() { Id = 19, ProductId = 7, Url = "/assets/products/nike-p-6000.png" },
-            new() { Id = 20, ProductId = 7, Url = "/assets/products/nike-p-6000-2.png" },
-            new() { Id = 21, ProductId = 7, Url = "/assets/products/nike-p-6000-3.png" },
-            new() { Id = 22, ProductId = 8, Url = "/assets/products/nike-air-force-1-black.png" },
-            new() { Id = 23, ProductId = 8, Url = "/assets/products/nike-air-force-1-black-2.png" },
-            new() { Id = 24, ProductId = 8, Url = "/assets/products/nike-air-force-1-black-3.png" },
-            new() { Id = 25, ProductId = 9, Url = "/assets/products/nike-air-force-1-white.png" },
-            new() { Id = 26, ProductId = 9, Url = "/assets/products/nike-air-force-1-white-2.png" },
-            new() { Id = 27, ProductId = 9, Url = "/assets/products/nike-air-force-1-white-3.png" },
-            new() { Id = 28, ProductId = 10, Url = "/assets/products/jordan-4-retro-blue.png" },
-            new() { Id = 29, ProductId = 10, Url = "/assets/products/jordan-4-retro-blue-2.png" },
-            new() { Id = 30, ProductId = 10, Url = "/assets/products/jordan-4-retro-blue-3.png" },
-            new() { Id = 31, ProductId = 11, Url = "/assets/products/jordan-1-green.png" },
-            new() { Id = 32, ProductId = 11, Url = "/assets/products/jordan-1-green-2.png" },
-            new() { Id = 33, ProductId = 11, Url = "/assets/products/jordan-1-green-3.png" }
+            // Product 1
+            new() { Id = 1, ProductId = 1, Url = "/assets/products/nike-air-max-90-orange.png" },
+            new() { Id = 2, ProductId = 1, Url = "/assets/products/nike-air-max-90-orange-2.png" },
+            new() { Id = 3, ProductId = 1, Url = "/assets/products/nike-air-max-90-orange-3.png" },
+            // Product 2
+            new() { Id = 4, ProductId = 2, Url = "/assets/products/nike-air-max-90-beige.png" },
+            new() { Id = 5, ProductId = 2, Url = "/assets/products/nike-air-max-90-beige-2.png" },
+            new() { Id = 6, ProductId = 2, Url = "/assets/products/nike-air-max-90-beige-3.png" },
+            // Product 3
+            new() { Id = 7, ProductId = 3, Url = "/assets/products/asics-gel-1130.png" },
+            new() { Id = 8, ProductId = 3, Url = "/assets/products/asics-gel-1130-2.png" },
+            new() { Id = 9, ProductId = 3, Url = "/assets/products/asics-gel-1130-3.png" },
+            // Product 4
+            new() { Id = 10, ProductId = 4, Url = "/assets/products/nike-p-6000.png" },
+            new() { Id = 11, ProductId = 4, Url = "/assets/products/nike-p-6000-2.png" },
+            new() { Id = 12, ProductId = 4, Url = "/assets/products/nike-p-6000-3.png" },
+            // Product 5
+            new() { Id = 13, ProductId = 5, Url = "/assets/products/nike-air-force-1-black.png" },
+            new() { Id = 14, ProductId = 5, Url = "/assets/products/nike-air-force-1-black-2.png" },
+            new() { Id = 15, ProductId = 5, Url = "/assets/products/nike-air-force-1-black-3.png" },
+            // Product 6
+            new() { Id = 16, ProductId = 6, Url = "/assets/products/nike-air-force-1-white.png" },
+            new() { Id = 17, ProductId = 6, Url = "/assets/products/nike-air-force-1-white-2.png" },
+            new() { Id = 18, ProductId = 6, Url = "/assets/products/nike-air-force-1-white-3.png" },
+            // Product 7
+            new() { Id = 19, ProductId = 7, Url = "/assets/products/jordan-4-retro-blue.png" },
+            new() { Id = 20, ProductId = 7, Url = "/assets/products/jordan-4-retro-blue-2.png" },
+            new() { Id = 21, ProductId = 7, Url = "/assets/products/jordan-4-retro-blue-3.png" },
+            // Product 8
+            new() { Id = 22, ProductId = 8, Url = "/assets/products/jordan-1-green.png" },
+            new() { Id = 23, ProductId = 8, Url = "/assets/products/jordan-1-green-2.png" },
+            new() { Id = 24, ProductId = 8, Url = "/assets/products/jordan-1-green-3.png" }
         };
 
-        // Seed ProductSizes
+        // Seed ProductSizes (6 per product, IDs 1-48)
         var sizes = new List<ProductSize>
         {
-            // Product 4: Nike Air Max 90 Orange - only small sizes left
+            // Product 1: Nike Air Max 90 Orange - only small sizes left
+            new() { Id = 1, ProductId = 1, Size = 6, Available = true },
+            new() { Id = 2, ProductId = 1, Size = 7, Available = true },
+            new() { Id = 3, ProductId = 1, Size = 8, Available = false },
+            new() { Id = 4, ProductId = 1, Size = 9, Available = false },
+            new() { Id = 5, ProductId = 1, Size = 10, Available = false },
+            new() { Id = 6, ProductId = 1, Size = 11, Available = false },
+            // Product 2: Nike Air Max 90 Beige - mid sizes available
+            new() { Id = 7, ProductId = 2, Size = 6, Available = false },
+            new() { Id = 8, ProductId = 2, Size = 7, Available = true },
+            new() { Id = 9, ProductId = 2, Size = 8, Available = true },
+            new() { Id = 10, ProductId = 2, Size = 9, Available = false },
+            new() { Id = 11, ProductId = 2, Size = 10, Available = false },
+            new() { Id = 12, ProductId = 2, Size = 11, Available = true },
+            // Product 3: Asics GEL-1130 - large sizes only
+            new() { Id = 13, ProductId = 3, Size = 6, Available = false },
+            new() { Id = 14, ProductId = 3, Size = 7, Available = false },
+            new() { Id = 15, ProductId = 3, Size = 8, Available = false },
+            new() { Id = 16, ProductId = 3, Size = 9, Available = true },
+            new() { Id = 17, ProductId = 3, Size = 10, Available = true },
+            new() { Id = 18, ProductId = 3, Size = 11, Available = true },
+            // Product 4: Nike P-6000 - scattered availability
             new() { Id = 19, ProductId = 4, Size = 6, Available = true },
-            new() { Id = 20, ProductId = 4, Size = 7, Available = true },
+            new() { Id = 20, ProductId = 4, Size = 7, Available = false },
             new() { Id = 21, ProductId = 4, Size = 8, Available = false },
-            new() { Id = 22, ProductId = 4, Size = 9, Available = false },
+            new() { Id = 22, ProductId = 4, Size = 9, Available = true },
             new() { Id = 23, ProductId = 4, Size = 10, Available = false },
             new() { Id = 24, ProductId = 4, Size = 11, Available = false },
-            // Product 5: Nike Air Max 90 Beige - mid sizes available
+            // Product 5: Nike Air Force 1 Black - popular, mostly sold out
             new() { Id = 25, ProductId = 5, Size = 6, Available = false },
-            new() { Id = 26, ProductId = 5, Size = 7, Available = true },
-            new() { Id = 27, ProductId = 5, Size = 8, Available = true },
+            new() { Id = 26, ProductId = 5, Size = 7, Available = false },
+            new() { Id = 27, ProductId = 5, Size = 8, Available = false },
             new() { Id = 28, ProductId = 5, Size = 9, Available = false },
-            new() { Id = 29, ProductId = 5, Size = 10, Available = false },
+            new() { Id = 29, ProductId = 5, Size = 10, Available = true },
             new() { Id = 30, ProductId = 5, Size = 11, Available = true },
-            // Product 6: Asics GEL-1130 - large sizes only
-            new() { Id = 31, ProductId = 6, Size = 6, Available = false },
-            new() { Id = 32, ProductId = 6, Size = 7, Available = false },
-            new() { Id = 33, ProductId = 6, Size = 8, Available = false },
+            // Product 6: Nike Air Force 1 White - well stocked
+            new() { Id = 31, ProductId = 6, Size = 6, Available = true },
+            new() { Id = 32, ProductId = 6, Size = 7, Available = true },
+            new() { Id = 33, ProductId = 6, Size = 8, Available = true },
             new() { Id = 34, ProductId = 6, Size = 9, Available = true },
-            new() { Id = 35, ProductId = 6, Size = 10, Available = true },
-            new() { Id = 36, ProductId = 6, Size = 11, Available = true },
-            // Product 7: Nike P-6000 - scattered availability
-            new() { Id = 37, ProductId = 7, Size = 6, Available = true },
+            new() { Id = 35, ProductId = 6, Size = 10, Available = false },
+            new() { Id = 36, ProductId = 6, Size = 11, Available = false },
+            // Product 7: Jordan 4 Retro Blue - limited release, few sizes
+            new() { Id = 37, ProductId = 7, Size = 6, Available = false },
             new() { Id = 38, ProductId = 7, Size = 7, Available = false },
-            new() { Id = 39, ProductId = 7, Size = 8, Available = false },
-            new() { Id = 40, ProductId = 7, Size = 9, Available = true },
+            new() { Id = 39, ProductId = 7, Size = 8, Available = true },
+            new() { Id = 40, ProductId = 7, Size = 9, Available = false },
             new() { Id = 41, ProductId = 7, Size = 10, Available = false },
-            new() { Id = 42, ProductId = 7, Size = 11, Available = false },
-            // Product 8: Nike Air Force 1 Black - popular, mostly sold out
-            new() { Id = 43, ProductId = 8, Size = 6, Available = false },
+            new() { Id = 42, ProductId = 7, Size = 11, Available = true },
+            // Product 8: Jordan 1 Green - ends of size range
+            new() { Id = 43, ProductId = 8, Size = 6, Available = true },
             new() { Id = 44, ProductId = 8, Size = 7, Available = false },
             new() { Id = 45, ProductId = 8, Size = 8, Available = false },
             new() { Id = 46, ProductId = 8, Size = 9, Available = false },
-            new() { Id = 47, ProductId = 8, Size = 10, Available = true },
-            new() { Id = 48, ProductId = 8, Size = 11, Available = true },
-            // Product 9: Nike Air Force 1 White - well stocked
-            new() { Id = 49, ProductId = 9, Size = 6, Available = true },
-            new() { Id = 50, ProductId = 9, Size = 7, Available = true },
-            new() { Id = 51, ProductId = 9, Size = 8, Available = true },
-            new() { Id = 52, ProductId = 9, Size = 9, Available = true },
-            new() { Id = 53, ProductId = 9, Size = 10, Available = false },
-            new() { Id = 54, ProductId = 9, Size = 11, Available = false },
-            // Product 10: Jordan 4 Retro Blue - limited release, few sizes
-            new() { Id = 55, ProductId = 10, Size = 6, Available = false },
-            new() { Id = 56, ProductId = 10, Size = 7, Available = false },
-            new() { Id = 57, ProductId = 10, Size = 8, Available = true },
-            new() { Id = 58, ProductId = 10, Size = 9, Available = false },
-            new() { Id = 59, ProductId = 10, Size = 10, Available = false },
-            new() { Id = 60, ProductId = 10, Size = 11, Available = true },
-            // Product 11: Jordan 1 Green - ends of size range
-            new() { Id = 61, ProductId = 11, Size = 6, Available = true },
-            new() { Id = 62, ProductId = 11, Size = 7, Available = false },
-            new() { Id = 63, ProductId = 11, Size = 8, Available = false },
-            new() { Id = 64, ProductId = 11, Size = 9, Available = false },
-            new() { Id = 65, ProductId = 11, Size = 10, Available = false },
-            new() { Id = 66, ProductId = 11, Size = 11, Available = true }
+            new() { Id = 47, ProductId = 8, Size = 10, Available = false },
+            new() { Id = 48, ProductId = 8, Size = 11, Available = true }
         };
 
         // Use raw SQL to insert with explicit IDs (SQLite identity insert)
