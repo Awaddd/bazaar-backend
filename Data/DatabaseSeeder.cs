@@ -125,18 +125,6 @@ public static class DatabaseSeeder
         // Seed ProductFeatures
         var features = new List<ProductFeature>
         {
-            new() { Id = 1, ProductId = 1, Value = "High-quality leather upper" },
-            new() { Id = 2, ProductId = 1, Value = "Durable rubber outsole" },
-            new() { Id = 3, ProductId = 1, Value = "Lightweight cushioning for comfort" },
-            new() { Id = 4, ProductId = 1, Value = "Iconic Off-White design elements" },
-            new() { Id = 5, ProductId = 2, Value = "Premium nubuck upper with mesh paneling" },
-            new() { Id = 6, ProductId = 2, Value = "Visible Air-Sole unit in heel" },
-            new() { Id = 7, ProductId = 2, Value = "Herringbone outsole for traction" },
-            new() { Id = 8, ProductId = 2, Value = "Classic Flight branding and TPU eyelets" },
-            new() { Id = 9, ProductId = 3, Value = "Durable leather and mesh upper for breathability" },
-            new() { Id = 10, ProductId = 3, Value = "Visible Max Air unit for lightweight cushioning" },
-            new() { Id = 11, ProductId = 3, Value = "Rubber outsole with waffle pattern for traction" },
-            new() { Id = 12, ProductId = 3, Value = "Padded collar and flex grooves for natural movement" },
             new() { Id = 13, ProductId = 4, Value = "Durable leather and mesh upper for breathability" },
             new() { Id = 14, ProductId = 4, Value = "Visible Max Air unit for lightweight cushioning" },
             new() { Id = 15, ProductId = 4, Value = "Rubber outsole with waffle pattern for traction" },
@@ -171,18 +159,9 @@ public static class DatabaseSeeder
             new() { Id = 44, ProductId = 11, Value = "Padded collar for ankle support and comfort" }
         };
 
-        // Seed ProductImages
+        // Seed ProductImages (only for products 4-11 that exist)
         var images = new List<ProductImage>
         {
-            new() { Id = 1, ProductId = 1, Url = "/assets/products/jordan-1-gray.webp" },
-            new() { Id = 2, ProductId = 1, Url = "/assets/products/jordan-1-gray-2.webp" },
-            new() { Id = 3, ProductId = 1, Url = "/assets/products/jordan-1-gray-3.jpg" },
-            new() { Id = 4, ProductId = 2, Url = "/assets/products/jordan-4-blue.jpg" },
-            new() { Id = 5, ProductId = 2, Url = "/assets/products/jordan-4-blue-2.jpg" },
-            new() { Id = 6, ProductId = 2, Url = "/assets/products/jordan-4-blue-3.jpg" },
-            new() { Id = 7, ProductId = 3, Url = "/assets/products/air-max-90-orange.jpg" },
-            new() { Id = 8, ProductId = 3, Url = "/assets/products/air-max-90-orange-2.jpg" },
-            new() { Id = 9, ProductId = 3, Url = "/assets/products/air-max-90-orange-3.jpg" },
             new() { Id = 10, ProductId = 4, Url = "/assets/products/nike-air-max-90-orange.png" },
             new() { Id = 11, ProductId = 4, Url = "/assets/products/nike-air-max-90-orange-2.png" },
             new() { Id = 12, ProductId = 4, Url = "/assets/products/nike-air-max-90-orange-3.png" },
