@@ -13,4 +13,5 @@ public class AppDbContext : DbContext
     public DbSet<ProductFeature> ProductFeatures => Set<ProductFeature>();
     public DbSet<ProductImage> ProductImages => Set<ProductImage>();
     public DbSet<ProductSize> ProductSizes => Set<ProductSize>();
+    public DbSet<CartItem> CartItems => Set<CartItem>();
 }

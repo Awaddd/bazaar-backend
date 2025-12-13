@@ -11,41 +11,39 @@ namespace Commerce.Api.Controllers;
 public class CartController : ControllerBase
 {
     private readonly AppDbContext _db;
-    private static readonly List<CartItem> _cartItems = new();
-    private static int _nextId = 1;
-    private static bool _seeded = false;
 
     public CartController(AppDbContext db)
     {
         _db = db;
-
-        // Seed demo data on first controller instantiation
-        if (!_seeded)
-        {
-            SeedDemoData();
-            _seeded = true;
-        }
     }
 
-    private static void SeedDemoData()
+    private string? GetSessionId()
     {
-        _cartItems.Add(new CartItem { Id = _nextId++, ProductId = 1, Size = 9, Quantity = 1 });
-        _cartItems.Add(new CartItem { Id = _nextId++, ProductId = 2, Size = 10, Quantity = 2 });
-        _cartItems.Add(new CartItem { Id = _nextId++, ProductId = 3, Size = 8, Quantity = 1 });
+        return Request.Headers["X-Session-Id"].FirstOrDefault();
     }
 
     [HttpGet]
-    public IActionResult GetAll()
+    public async Task<IActionResult> GetAll()
     {
-        var productIds = _cartItems.Select(ci => ci.ProductId).ToList();
+        var sessionId = GetSessionId();
+        if (string.IsNullOrEmpty(sessionId))
+        {
+            return BadRequest("X-Session-Id header is required.");
+        }
 
-        var products = _db.Products
+        var cartItems = await _db.CartItems
+            .Where(ci => ci.SessionId == sessionId)
+            .ToListAsync();
+
+        var productIds = cartItems.Select(ci => ci.ProductId).ToList();
+
+        var products = await _db.Products
             .Include(p => p.Brand)
             .Include(p => p.Category)
             .Where(p => productIds.Contains(p.Id))
-            .ToDictionary(p => p.Id);
+            .ToDictionaryAsync(p => p.Id);
 
-        var cartItemDtos = _cartItems.Select(ci =>
+        var cartItemDtos = cartItems.Select(ci =>
         {
             if (!products.TryGetValue(ci.ProductId, out var product))
             {
@@ -72,6 +70,12 @@ public class CartController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Add(CartItemCreateDto itemDto)
     {
+        var sessionId = GetSessionId();
+        if (string.IsNullOrEmpty(sessionId))
+        {
+            return BadRequest("X-Session-Id header is required.");
+        }
+
         if (itemDto.Quantity <= 0)
         {
             return BadRequest("Quantity must be greater than 0.");
@@ -94,14 +98,17 @@ public class CartController : ControllerBase
             return BadRequest($"Size {itemDto.Size} is not available for this product.");
         }
 
-        // Check if item already exists in cart (same product + size)
-        var existingItem = _cartItems.FirstOrDefault(ci =>
-            ci.ProductId == itemDto.ProductId && ci.Size == itemDto.Size);
+        // Check if item already exists in cart (same session + product + size)
+        var existingItem = await _db.CartItems.FirstOrDefaultAsync(ci =>
+            ci.SessionId == sessionId &&
+            ci.ProductId == itemDto.ProductId &&
+            ci.Size == itemDto.Size);
 
         if (existingItem != null)
         {
             // Update quantity
             existingItem.Quantity += itemDto.Quantity;
+            await _db.SaveChangesAsync();
 
             var responseDto = new CartItemReadDto
             {
@@ -120,13 +127,14 @@ public class CartController : ControllerBase
         // Add new item
         var newItem = new CartItem
         {
-            Id = _nextId++,
+            SessionId = sessionId,
             ProductId = itemDto.ProductId,
             Size = itemDto.Size,
             Quantity = itemDto.Quantity
         };
 
-        _cartItems.Add(newItem);
+        _db.CartItems.Add(newItem);
+        await _db.SaveChangesAsync();
 
         var result = new CartItemReadDto
         {
@@ -145,18 +153,27 @@ public class CartController : ControllerBase
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, CartItemUpdateDto updateDto)
     {
+        var sessionId = GetSessionId();
+        if (string.IsNullOrEmpty(sessionId))
+        {
+            return BadRequest("X-Session-Id header is required.");
+        }
+
         if (updateDto.Quantity <= 0)
         {
             return BadRequest("Quantity must be greater than 0.");
         }
 
-        var cartItem = _cartItems.FirstOrDefault(ci => ci.Id == id);
+        var cartItem = await _db.CartItems.FirstOrDefaultAsync(ci =>
+            ci.Id == id && ci.SessionId == sessionId);
+
         if (cartItem == null)
         {
             return NotFound($"Cart item with ID {id} does not exist.");
         }
 
         cartItem.Quantity = updateDto.Quantity;
+        await _db.SaveChangesAsync();
 
         var product = await _db.Products
             .Include(p => p.Brand)
@@ -183,15 +200,25 @@ public class CartController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult Remove(int id)
+    public async Task<IActionResult> Remove(int id)
     {
-        var cartItem = _cartItems.FirstOrDefault(ci => ci.Id == id);
+        var sessionId = GetSessionId();
+        if (string.IsNullOrEmpty(sessionId))
+        {
+            return BadRequest("X-Session-Id header is required.");
+        }
+
+        var cartItem = await _db.CartItems.FirstOrDefaultAsync(ci =>
+            ci.Id == id && ci.SessionId == sessionId);
+
         if (cartItem == null)
         {
             return NotFound($"Cart item with ID {id} does not exist.");
         }
 
-        _cartItems.Remove(cartItem);
+        _db.CartItems.Remove(cartItem);
+        await _db.SaveChangesAsync();
+
         return Ok(new { success = true });
     }
 }
